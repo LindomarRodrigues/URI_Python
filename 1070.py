@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 x = int(input())
-
-for a in range(x, x+12, 2):
-    if a % 2 != 0:
+if x % 2 != 0:
+    for a in range(x, x+12, 2):
         print(a)
-    else:
-        print(a+1)
+elif x % 2 == 0:
+    for a in range(x+1, x+13, 2):
+        print(a)
