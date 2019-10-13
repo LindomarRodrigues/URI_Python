@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 print('''       A
       B B
      C   C
